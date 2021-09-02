@@ -1,12 +1,214 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="./css/bootstrap.css" />
+    <link rel="stylesheet" href="./css/stylesheet.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <title>Technical Documentation</title>
 </head>
+
 <body>
-    
+    <main id="main-doc">
+        <header id="header" class="d-flex align-items-center">
+            <div class="container d-flex align-items-center justify-content-between">
+                <a href="index.html" class="logo"><img src="drawables/logo.png" alt="" class="img-fluid"
+                        id="header-img" />React</a>
+                <nav id="navbar" class="navbar">
+                    <header style="color:white;"><a href="#">ReactJs</a></header>
+                    <ul>
+                        <li><a class="nav-link" href="#What_is_React">What is React</a></li>
+                        <li><a class="nav-link" href="#First_steps">First steps</a></li>
+                        <li><a class="nav-link" href="#Easy_to_learn">Easy to learn</a></li>
+                        <li><a class="nav-link" href="#Popular_with_JavaScript">Popular with JavaScript</a></li>
+                        <li><a class="nav-link" href="#How_2_React">How 2 React</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <div class="top-div">
+            <div class="center-div">
+                <h1 class="react-title">React</h1>
+                <p class="react-subtitle">A JavaScript library for building user interfaces</p>
+                <div class="wrapper">
+                    <div class="right-button">
+                        <a class="right-link" href="/docs/getting-started.html">Get Started</a>
+                    </div>
+                    <div class="left-button">
+                        <a class="css-13foh4g" href="/tutorial/tutorial.html">Take the Tutorial&nbsp&nbsp<svg height="12" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 4.53657 8.69699" class="css-b7q1rs"><path d="
+                            M.18254,8.697a.18149.18149,0,0,1-.12886-.31034L4.09723,4.34126.05369.29954a.18149.18149,
+                            0,0,1,.2559-.2559L4.4838,4.21785a.18149.18149,0,0,1,0,.2559L.30958,8.648A.18149.18149,
+                            0,0,1,.18254,8.697Z
+                          " fill="currentColor"></path></svg></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container d-flex spacer-top">
+            <section >
+                <h3>Declarative</h3>
+                <div class="col-md-8">
+                    <p class="paragram-bottom">React makes it painless to create interactive UIs. Design simple views for each state in your application, and React will efficiently update and render just the right components when your data changes.</p>
+                    <p class="paragram-bottom">Declarative views make your code more predictable and easier to debug.</p>
+                </div>
+            </section>
+            <section >
+                <h3>Component-Based</h3>
+                <div class="col-md-8">
+                    <p class="paragram-bottom">Build encapsulated components that manage their own state, then compose them to make complex UIs.</p>
+                    <p class="paragram-bottom">Since component logic is written in JavaScript instead of templates, you can easily pass rich data through your app and keep state out of the DOM.</p>
+                </div>
+            </section>
+            <section >
+                <h3>Learn Once, Write Anywhere</h3>
+                <div class="col-md-8">
+                    <p class="paragram-bottom">We don’t make assumptions about the rest of your technology stack, so you can develop new features in React without rewriting existing code.</p>
+                    <p class="paragram-bottom">React can also render on the server using Node and power mobile apps using React Native.</p>
+                </div>
+            </section>
+        </div>
+        
+
+        <div class="container mt-lg-5" id="docs">
+            <div class="col">
+                <div class="col-md-7">
+                    <h1>Getting Started</h1>
+                    <p class="subtitle">This page is an overview of the React documentation and related resources.</h2>
+                    <section class="main-section" id="What_is_React">
+                        <header>What is React</header>
+                        <p>
+                            React is a JavaScript library for building user interfaces. Learn what React is all about on
+                            our homepage or in the tutorial.
+                        </p>
+                        <hr>
+                        <ul>
+                            <li><a href="#" class="items">Try React</a></li>
+                            <li><a href="#" class="items">Learn React</a> </li>
+                            <li><a href="#" class="items">Staying Informed</a> </li>
+                            <li><a href="#" class="items">Something Missing?</a> </li>
+                        </ul>
+                    </section>
+                </div>
+                <div class="col-md-7">
+                    <h2>Try React </h2>
+                    <section>
+                        <p>
+                            React has been designed from the start for gradual adoption, and <strong>you can use as little or as
+                            much React as you need.</strong> Whether you want to get a taste of React, add some interactivity to
+                            a simple HTML page, or start a complex React-powered app, the links in this section will
+                            help you get started.</p>
+
+                        <hr>
+                    </section>
+                </div>
+                <div class="col-md-7">
+                    <h2>Learn React</h2>
+                    <section>
+                        <p>
+                            People come to React from different backgrounds and with different learning styles. Whether you prefer a more theoretical or a practical approach, we hope you’ll find this section helpful.</p>
+                            <ul>
+                                <li>If you prefer to <strong>learn by doing</strong>, start with our <a href="#" class="items">practical tutorial.</a></li>
+                                <li>If you prefer to <strong>learn concepts step by step</strong>, start with our <a href="#" class="items">guide to main concepts.</a></li>
+                            </ul>
+                    </section>
+                </div>
+                <div class="col-md-7">
+                    <h2>First Examples</h2>
+                    <section class="main-section" id= "First_steps">
+                        <header>First steps</header>
+                        <p>
+                            The <a href="https://reactjs.org/" class="items">React homepage</a> contains a few small React examples with a live editor. Even if you don’t know anything about React yet, try changing their code and see how it affects the result.</p>
+                    </section>
+                </div>
+                <div class="col-md-7">
+                    <h2>React for Beginners</h2>
+                    <section class="main-section" id="Easy_to_learn">
+                        <header>Easy to learn</header>
+                        <p>
+                            If you feel that the React documentation goes at a faster pace than you’re comfortable with, check out <a href="#" class="items">this overview of React by Tania Rascia.</a> It introduces the most important React concepts in a detailed, beginner-friendly way. Once you’re done, give the documentation another try!</p>
+                    </section>
+                </div>
+                <div class="col-md-7">
+                    <h2>JavaScript Resources </h2>
+                    <section class="main-section" id="Popular_with_JavaScript">
+                        <header>Popular with JavaScript</header>
+                     <p>The React documentation assumes some familiarity with programming in the JavaScript language. You don’t have to be an expert, but it’s harder to learn both React and JavaScript at the same time.</p>
+                     <p>We recommend going through this JavaScript overview to check your knowledge level. It will take you between 30 minutes and an hour but you will feel more confident learning React.</p>
+                    </section>
+                </div>
+                <div class="col-md-7">
+                    <section>
+                        <blockquote>
+                            <p><strong>Tip</strong></p>
+                            <p>Whenever you get confused by something in JavaScript, MDN and javascript.info are great websites to check. There are also community support forums where you can ask for help.</p>
+                        </blockquote>
+                    </section>
+                </div>
+                <div class="col-md-7">
+                    <h1>Create a New React App</h1>
+                    <section class="main-section" id="How_2_React">
+                        <header class="subtitle">How 2 React</header>
+                        <ul>
+                            <li><a href="#" class="items">Scaling to many files and components.</a></li>
+                            <li><a href="#" class="items">Using third-party libraries from npm.</a> </li>
+                            <li><a href="#" class="items">Detecting common mistakes early.</a> </li>
+                            <li><a href="#" class="items">Live-editing CSS and JS in development.</a> </li>
+                        </ul>
+                     <p>Create React App is a comfortable environment for learning React, and is the best way to start building a new single-page application in React.</p>
+                   <p>It sets up your development environment so that you can use the latest JavaScript features, provides a nice developer experience, and optimizes your app for production. You’ll need to have Node >= 10.16 and <code>npm</code> >= 5.6 on your machine. To create a project, run:</p> 
+                   <div class=" code-sample">
+                       <pre>
+                                <code>
+                                    npx create-react-app my-app
+                                    <span class="y-token">cd</span> my-app
+                                    <span class="b-token">npm</span> start
+                                </code>
+                            </pre>
+                   </div>     
+                   <div >
+                       <section>
+                           <blockquote>
+                               <p><strong>Note</strong></p>
+                               <p><code>npx</code> on the first line is not a typo — it’s a package runner tool that comes with npm 5.2+.</p>
+                           </blockquote>
+                       </section>
+                   </div>
+                   <div >
+                       <section>
+                           <p>Create React App doesn’t handle backend logic or databases; it just creates a frontend build pipeline, so you can use it with any backend you want. Under the hood, it uses Babel and webpack, but you don’t need to know anything about them.</p>
+                           <p>When you’re ready to deploy to production, running <code>npm run build</code> will create an optimized build of your app in the <code>build</code> folder. You can learn more about Create React App from its README and the User Guide.</p>
+                       </section>
+                   </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="col">
+                <div class="col-md-6">
+                    <section>
+                        <br>
+                        <br>
+                        <a href="https://opensource.facebook.com/projects/" target="_blank" rel="noopener">
+                        <img alt="Facebook Open Source" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAVQAAABaCAMAAADQMV5DAAAC3FBMVEUAAAD///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////+GTFYVAAAA9HRSTlMAG7O/KQR48v/+hA5W2+piObG8RBSU/fehIG7stSWl9nkIStbYU0XN4FUvrHoDcOi3OAuLmheOmRVm4rtBNbDucsnfXlDUJpuGB3vtM3+mHBKMEF3FSDzmaMLpWN7PRh2XkAaAo3X4riuiBctS3WAxtvFx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"></a>
+                        <p>Copyright © 2021 Facebook Inc.</p>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
+
 </html>
